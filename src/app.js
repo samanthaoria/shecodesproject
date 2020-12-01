@@ -66,7 +66,7 @@ function displayWeatherNow(response) {
 
   celsiusTemperature = response.data.main.temp;
 
-  document.querySelector("#humidity").innerHTML = response.data.main.humidity;
+  // document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
   );
@@ -85,9 +85,9 @@ function displayWeatherNow(response) {
     response.data.main.feels_like
   )}°C`;
 
-  document.querySelector("#precipitation-probality");
+  const precipitation = document.querySelector("#precipitation-probality");
 
-  precipitation.innerHTML = `${Math.round(response.data.main.humidity)} %`;
+  precipitation.innerHTML = `${Math.round(response.data.main.humidity)}%`;
 
   const iconCurrent = document.querySelector("#icon-current");
   iconCurrent.setAttribute(

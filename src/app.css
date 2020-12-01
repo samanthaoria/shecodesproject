@@ -173,7 +173,6 @@ h2 {
   font-family: "PT Sans", sans-serif;
   text-align: right;
   margin-top: -140px;
- 
 }
 
 .sky-condition {
@@ -187,10 +186,6 @@ h2 {
 
 .precipitation-adjust {
   margin-right: 6px;
-}
-
-.wind-adjust {
-  margin-right: 20px;
 }
 
 .humidity-adjust {
