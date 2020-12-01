@@ -155,7 +155,6 @@ h2 {
   color: #235493;
   list-style: none;
   font-family: "PT Sans", sans-serif;
-  margin-right: 40px;
   text-align: right;
 }
 
@@ -174,6 +173,7 @@ h2 {
   font-family: "PT Sans", sans-serif;
   text-align: right;
   margin-top: -140px;
+ 
 }
 
 .sky-condition {
