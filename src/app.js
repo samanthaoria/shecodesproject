@@ -85,6 +85,10 @@ function displayWeatherNow(response) {
     response.data.main.feels_like
   )}°C`;
 
+  document.querySelector("#precipitation-probality");
+
+  precipitation.innerHTML = `${Math.round(response.data.main.humidity)} %`;
+
   const iconCurrent = document.querySelector("#icon-current");
   iconCurrent.setAttribute(
     "src",
@@ -108,8 +112,8 @@ function displayForecast(response) {
       />
       </div>
         <div class="high-low-temperature italic light-blue">
-            <p> H: ${Math.round(forecast.main.temp_max)}°C 
-            / L: ${Math.round(forecast.main.temp_min)}°C
+            <p> ${Math.round(forecast.main.temp_max)}°C 
+           
     </p>
         </div>
     </div>`;
