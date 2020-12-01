@@ -1,0 +1,225 @@
+h1 {
+  text-align: left;
+  margin-left: 20px;
+  font-family: "PT Sans", sans-serif;
+  color: #235493;
+  width: 50%;
+}
+
+h2 {
+  font-size: 15px;
+  text-align: left;
+}
+
+.next-days {
+  color: #235493;
+  font-weight: bold;
+}
+
+.container {
+  margin: 0 auto;
+  border: 4px solid #fff;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  max-width: 600px;
+  background-image: linear-gradient(100deg, #a1c4fd 0%, #c2e9fb 100%);
+  margin-top: 20px;
+  padding: 20px 40px 40px 20px;
+}
+
+.data-container {
+  margin-top: -15px;
+}
+
+.form-group {
+  position: relative;
+  top: 20px;
+  margin: 0;
+  left: 50px;
+  width: 60%;
+  margin-left: -20px;
+}
+
+.btn-primary {
+  position: relative;
+  margin: 0;
+  left: 130px;
+  top: -18px;
+}
+
+.btn-current {
+  position: relative;
+  margin: 0;
+  left: 230px;
+  top: -56px;
+  background-color: #2a73d3;
+  color: #fff;
+}
+
+.btn-current:hover {
+  color: #fff;
+  background-color: #057bfe;
+}
+
+.degrees-currentdaytogether {
+  margin: 0 auto;
+}
+
+.day-current-temp {
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+.current-temperature {
+  text-align: left;
+  font-size: 50px;
+  font-family: "PT Sans", sans-serif;
+  color: #235493;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.current-temperature .active {
+  color: #235493;
+  cursor: default;
+}
+
+.current-temperature .active:hover {
+  text-decoration: none;
+}
+
+.temperature-value {
+  vertical-align: top;
+}
+
+.units {
+  position: relative;
+  top: -15px;
+  font-size: 19px;
+}
+
+.weather-forecast {
+  text-align: center;
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  color: #235493;
+  padding: -20px;
+}
+
+.img-forecast {
+  margin-left: -15px;
+}
+
+.next-temperature {
+  color: #235493;
+}
+
+.high-low-temperature {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.icon-current {
+  margin-left: -20px;
+}
+
+.col-2 {
+  font-size: 16px;
+  padding: 10px 10px 5px 10px;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+}
+
+.col-2:hover {
+  background-color: #c0dbf7;
+}
+
+.currently-high-low {
+  font-family: "PT Sans", sans-serif;
+}
+
+.h-hightemp {
+  color: #235493;
+}
+
+.l-low-temp {
+  color: #235493;
+  margin-left: 10px;
+}
+
+.feels-like {
+  color: #235493;
+  list-style: none;
+  font-family: "PT Sans", sans-serif;
+  margin-right: 40px;
+  text-align: right;
+}
+
+.result-feels-like {
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+}
+
+.currently-high-low {
+  margin-right: 20px;
+}
+
+.wind-humidity {
+  color: #235493;
+  list-style: none;
+  font-family: "PT Sans", sans-serif;
+  text-align: right;
+  margin-top: -140px;
+}
+
+.sky-condition {
+  margin-right: -30px;
+}
+
+.result-sky-condition {
+  color: #2a73d3;
+  margin-left: 30px;
+}
+
+.precipitation-adjust {
+  margin-right: 6px;
+}
+
+.wind-adjust {
+  margin-right: 20px;
+}
+
+.humidity-adjust {
+  margin-right: 6px;
+}
+
+.align-link {
+  width: 800px;
+}
+
+.link-git {
+  margin-left: 420px;
+  font-size: 15px;
+  font-family: "PT Sans", sans-serif;
+  color: #235493;
+}
+
+.name-after-git {
+  color: #2a73d3;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.light-blue {
+  color: #2a73d3;
+}
