@@ -38,7 +38,7 @@ function formatHours(timestamp) {
 }
 
 function displayWeatherNow(response) {
-  console.log(response.data);
+  // console.log(response.data);
 
   document.querySelector("#city").innerHTML = response.data.name;
 
@@ -66,7 +66,6 @@ function displayWeatherNow(response) {
 
   celsiusTemperature = response.data.main.temp;
 
-  // document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
   );
@@ -140,8 +139,10 @@ form.addEventListener("submit", handleSubmit);
 
 function searchLocation(position) {
   const apiKey = "d09585e76f8833f9d740d8b7cf3fe689";
-  const urlApi = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
+  let urlApi = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
   axios.get(urlApi).then(displayWeatherNow);
+  urlApi = `https://api.openweathermap.org/data/2.5/forecast?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
+  axios.get(urlApi).then(displayForecast);
 }
 
 function currentLocationWeather(event) {
